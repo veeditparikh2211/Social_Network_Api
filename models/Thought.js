@@ -1,6 +1,6 @@
 const { Schema, model, Types } = require('mongoose');
-const dateFormat = require('../utils/dateFormat');
-const { Schema } = require('./User.js');
+const dateFormat = require('../public/utils/dateFormat');
+const { schema } = require('./User.js');
 
 const reactionSchema = new Schema({
     // set custom id to avoid confusion with parent comment _id

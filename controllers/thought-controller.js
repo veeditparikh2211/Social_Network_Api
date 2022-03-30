@@ -87,4 +87,4 @@ const thoughtController = {
     }
 };
 
-module.exports = commentController;
+module.exports = thoughtController;

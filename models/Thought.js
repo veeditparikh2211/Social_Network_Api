@@ -26,7 +26,8 @@ const reactionSchema = new Schema({
 }, {
     toJSON: {
         getters: true
-    }
+    },
+    id: false
 });
 
 const ThoughtSchema = new Schema({
@@ -46,7 +47,7 @@ const ThoughtSchema = new Schema({
         get: createdAtVal => dateFormat(createdAtVal)
     },
     // use ReplySchema to validate data for a reply
-    replies: [reactionSchema]
+    reactions: [reactionSchema]
 }, {
     toJSON: {
         virtuals: true,

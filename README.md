@@ -21,8 +21,8 @@ for some bug fixes.
 https://github.com/veeditparikh2211/Social_Network_Api
 ## Video
 
-![](/public/images/.gif)
-
+![](/public/images/Video1.gif)
+![](/public/images/Video2.gif)
 
 ## Application
 

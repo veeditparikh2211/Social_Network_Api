@@ -11,6 +11,12 @@ mongoose
 express
 mongo database
 
+## Credits
+
+Name: Jacob Liberty
+https://github.com/JacobGit3/Social-Media-Mongo
+for some bug fixes.
+
 ## Github repo link
 https://github.com/veeditparikh2211/Social_Network_Api
 ## Video

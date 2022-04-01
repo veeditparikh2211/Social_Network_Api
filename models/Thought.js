@@ -3,7 +3,7 @@ const dateFormat = require('../public/utils/dateFormat');
 const { schema } = require('./User.js');
 
 const reactionSchema = new Schema({
-    // set custom id to avoid confusion with parent comment _id
+
     reactionId: {
         type: Schema.Types.ObjectId,
         default: () => new Types.ObjectId()
@@ -46,7 +46,7 @@ const ThoughtSchema = new Schema({
         default: Date.now,
         get: createdAtVal => dateFormat(createdAtVal)
     },
-    // use ReplySchema to validate data for a reply
+
     reactions: [reactionSchema]
 }, {
     toJSON: {
